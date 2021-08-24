@@ -79,5 +79,5 @@ it('Numbers', () => {
     expect(number).to.be.above(3) // se o número é maior que três
     expect(number).to.be.below(7) // se o número é menor que sete
     expect(floarNumber).to.be.equal(5.2123)
-    expect(floarNumber).to.be.closeTo(5.2, 0.1) // se o número é prôximo com a precisão de 0.1
+    expect(floarNumber).to.be.closeTo(5.2, 0.1) // se o número é próximo com a precisão de 0.1
 })
